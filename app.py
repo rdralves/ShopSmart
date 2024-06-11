@@ -33,4 +33,5 @@ for product in products:
     print(f'Name: {name}')
     print(f'Price: {price}')
     print(f'Description: {description}')
+    print(f'Data e hora da raspagem: {timestamp}')
     print('---')
