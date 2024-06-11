@@ -3,7 +3,8 @@ from bs4 import BeautifulSoup
 from datetime import datetime
 
 # URL do site
-url = "file:///path/to/your/index.html"  # Altere para o caminho correto do seu arquivo HTML
+# Altere para o caminho correto do seu arquivo HTML
+url = "http://127.0.0.1:5500/index.html"
 
 # Realizar a requisição HTTP para obter o conteúdo da página
 response = requests.get(url)
