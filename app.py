@@ -4,7 +4,7 @@ from datetime import datetime
 
 # URL do site
 # Altere para o caminho correto do seu arquivo HTML
-url = "https://rdralves.github.io/webscraping/"
+url = "https://rdralves.github.io/ShopSmart/"
 
 # Realizar a requisição HTTP para obter o conteúdo da página
 response = requests.get(url)
