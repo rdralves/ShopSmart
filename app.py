@@ -4,7 +4,7 @@ from datetime import datetime
 
 # URL do site
 # Altere para o caminho correto do seu arquivo HTML
-url = "https://rdralves.github.io/ShopSmart/"
+url = "file:///path/to/your/index.html"
 
 # Realizar a requisição HTTP para obter o conteúdo da página
 response = requests.get(url)
@@ -29,7 +29,7 @@ for product in products:
     name = product.find('h3').text
     price = product.find('p', class_='price').text
     description = product.find_all('p')[1].text
-    
+
     print(f'Name: {name}')
     print(f'Price: {price}')
     print(f'Description: {description}')
